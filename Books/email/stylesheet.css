@@ -18,23 +18,23 @@
   margin-top: 0;
   orphans: 2;
   padding-bottom: 0;
-  padding-left: 0;
+  padding-left: 3em;
   padding-right: 0;
   padding-top: 0;
   widows: 2;
 }
 .calibre2 {
-  font-style: italic;
+  color: #4c7aa9;
 }
 .calibre3 {
   color: #4c7aa9;
+  line-height: 1.2;
 }
 .calibre4 {
-  line-height: 1.2;
+  display: block;
 }
 .calibre5 {
-  color: #4c7aa9;
-  line-height: 1.2;
+  font-style: italic;
 }
 .calibre6 {
   display: block;
@@ -112,39 +112,6 @@
 }
 .calibre11 {
   display: block;
-  font-family: "Shift Light", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 1em;
-  text-align: center;
-  text-indent: 0;
-}
-.calibre12 {
-  display: block;
-  font-family: "Shift Light", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-  font-size: 1.41667em;
-  font-style: italic;
-  font-weight: bold;
-  line-height: inherit;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  text-align: center;
-  text-indent: 0;
-}
-.calibre13 {
-  display: block;
-}
-.calibre14 {
-  color: #fa6400;
-  font-size: 1.125em;
-  font-weight: bold;
-  text-decoration: underline;
-}
-.calibre15 {
-  display: block;
   font-size: 2em;
   font-weight: bold;
   line-height: 1.2;
@@ -153,7 +120,7 @@
   margin-right: 0;
   margin-top: 0.67em;
 }
-.calibre16 {
+.calibre12 {
   display: block;
   list-style-type: decimal;
   margin-bottom: 1em;
@@ -161,30 +128,16 @@
   margin-right: 0;
   margin-top: 1em;
 }
-.calibre17 {
+.calibre13 {
   display: list-item;
 }
-.calibre18 {
+.calibre14 {
   display: block;
   list-style-type: decimal;
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
-}
-.center {
-  display: block;
-  line-height: inherit;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  text-align: center;
-  text-indent: 0;
 }
 .clear {
   clear: both;
@@ -201,49 +154,60 @@
   padding-top: 0;
   widows: 2;
 }
-.endnote {
-  font-size: 0.58333em;
+.contents {
+  display: block;
+  font-family: "Minion Pro", "Georgia", serif;
+  font-size: 2em;
   line-height: 1.2;
-  vertical-align: super;
+  margin-bottom: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-top: 3em;
+  orphans: 2;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  page-break-after: avoid;
+  text-align: center;
+  text-indent: 0;
+  widows: 2;
+		
 }
-.h2em {
-  height: 2em;
+.contents_parts {
+  display: block;
+  font-family: "Minion Pro", "Georgia", serif;
+  font-size: 2em;
+  line-height: 1.2;
+  margin-bottom: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-top: 3em;
+  orphans: 2;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 8em;
+  page-break-after: avoid;
+  text-align: center;
+  text-indent: 0;
+  widows: 2;
+	
+		
+}
+.next_page {
+  color: #4c7aa9;
+  font-family: "Minion Pro", "Georgia", serif;
+  font-size: 1em;
+  line-height: 1.2;
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  width: auto;
-}
-.image_h {
-  font-size: 1em;
-  height: 12em;
-  max-width: 100%;
-  width: auto;
-}
-.rule {
-  border-top-color: #636363;
-  border-top-style: solid;
-  border-top-width: 1px;
-  display: block;
-  font-size: 1em;
-  line-height: inherit;
-  margin-bottom: 0;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 1.2em;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
+  page-break-after: avoid;
+  text-align: center;
+  text-decoration: none;
   text-indent: 0;
-}
-.scap {
-  font-variant: small-caps;
-  text-transform: lowercase;
 }
 .sidebar {
   border-bottom-color: #767676;
@@ -268,6 +232,11 @@
   padding-right: 0.25em;
   padding-top: 1em;
 }
+.sup {
+  font-size: 0.58333em;
+  line-height: 1.2;
+  vertical-align: super;
+}
 .transition {
   border-bottom-color: currentColor;
   border-bottom-style: none;
@@ -290,34 +259,17 @@
   margin-top: 0;
 }
 .w {
-  clear: both;
-  display: block;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  max-height: 100%;
-  orphans: 2;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  text-align: center;
-  widows: 2;
-  width: 100%;
-}
-.w1 {
-  height: auto;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  max-height: 100%;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    max-height: 100%;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 100%;
 }
 .w10r-email {
   display: block;
@@ -352,47 +304,15 @@
   widows: 2;
   width: 15%;
 }
-.x-small {
-  display: block;
-  font-family: "Shift Light", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-  font-size: 1em;
-  font-weight: bold;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  text-align: center;
-  text-indent: 0;
-}
-.x01-fm-ad-card-head {
+.x01-fm-contents-cn {
   display: block;
   font-family: "HelveticaNeueLT Std", "Helvetica", sans-serif;
-  font-size: 1em;
-  font-style: normal;
+  font-size: 0.80em;
   font-weight: bold;
-  margin-bottom: 0.8em;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 10%;
-  orphans: 2;
-  page-break-after: avoid;
-  text-align: left;
-  text-indent: 0;
-  widows: 2;
-}
-.x01-fm-ad-card-list {
-  display: block;
-  font-family: "Minion Pro", "Georgia", serif;
-  font-size: 1em;
-  font-style: italic;
   margin-bottom: 0;
-  margin-left: 0;
+  margin-left: 2.5em;
   margin-right: 0;
-  margin-top: 0.8em;
+  margin-top: 1.67em;
   orphans: 2;
   text-indent: 0;
   widows: 2;
@@ -400,10 +320,10 @@
 .x01-fm-contents-cn-space {
   display: block;
   font-family: "HelveticaNeueLT Std", "Helvetica", sans-serif;
-  font-size: 0.75em;
+  font-size: 1.1em;
   font-weight: bold;
   margin-bottom: 0;
-  margin-left: 2.5em;
+  margin-left: 0;
   margin-right: 0;
   margin-top: 2em;
   orphans: 2;
@@ -413,10 +333,10 @@
 .x01-fm-contents-fm-head {
   display: block;
   font-family: "HelveticaNeueLT Std", "Helvetica", sans-serif;
-  font-size: 0.75em;
+  font-size: 1.1em;
   font-weight: bold;
   margin-bottom: 0;
-  margin-left: 2.5em;
+  margin-left: 0;
   margin-right: 0;
   margin-top: 0;
   orphans: 2;
@@ -431,7 +351,7 @@
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
-  margin-top: 1.64em;
+  margin-top: 2em;
   orphans: 2;
   text-indent: 0;
   widows: 2;
@@ -442,97 +362,30 @@
   font-size: 1.125em;
   font-weight: bold;
   line-height: 1.2;
-  margin-bottom: 0.36em;
+  margin-bottom: 1.5em;
   margin-left: 0;
   margin-right: 0;
-  margin-top: 0;
+  margin-top: 2em;
   orphans: 2;
-  text-indent: 0;
-  widows: 2;
-}
-.x01-fm-copyright-logo {
-  display: block;
-  font-family: "Minion Pro", "Georgia", serif;
-  font-size: 1em;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  orphans: 2;
-  text-align: center;
-  text-indent: 0;
-  widows: 2;
-}
-.x01-fm-copyright-text {
-  display: block;
-  font-family: "Minion Pro", "Georgia", serif;
-  font-size: 0.75em;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  orphans: 2;
-  text-align: center;
-  text-indent: 0;
-  widows: 2;
-}
-.x01-fm-copyright-text-space {
-  display: block;
-  font-family: "Minion Pro", "Georgia", serif;
-  font-size: 0.75em;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0.71em;
-  orphans: 2;
-  text-align: center;
-  text-indent: 0;
-  widows: 2;
-}
-.x01-fm-dedi-body {
-  display: block;
-  font-family: "HelveticaNeueLT Std", "Helvetica", sans-serif;
-  font-size: 1em;
-  font-style: italic;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0.8em;
-  orphans: 2;
-  text-align: center;
-  text-indent: 0;
-  widows: 2;
-}
-.x01-fm-dedi-body-first {
-  display: block;
-  font-family: "HelveticaNeueLT Std", "Helvetica", sans-serif;
-  font-size: 1em;
-  font-style: italic;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 15%;
-  orphans: 2;
-  text-align: center;
   text-indent: 0;
   widows: 2;
 }
 .x01-fm-head-contents {
-  display: block;
-  font-family: "HelveticaNeueLT Std", "Helvetica", sans-serif;
-  font-size: 1.66667em;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1.2;
-  margin-bottom: 10%;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 15%;
-  orphans: 2;
-  page-break-after: avoid;
-  text-align: left;
-  text-indent: 0;
-  widows: 2;
+    display: block;
+    font-family: "HelveticaNeueLT Std", "Helvetica", sans-serif;
+    font-size: 1.66667em;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 2em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    orphans: 2;
+    page-break-after: avoid;
+    text-align: left;
+    text-indent: 0;
+    widows: 2;
 }
 .x02-part-number {
   display: block;
@@ -549,7 +402,7 @@
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
-  padding-top: 15%;
+  padding-top: 1em;
   page-break-after: avoid;
   text-align: left;
   text-indent: 0;
@@ -582,7 +435,7 @@
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
-  margin-top: 15%;
+  margin-top: 1em;
   orphans: 2;
   page-break-after: avoid;
   text-align: left;
@@ -596,7 +449,7 @@
   font-style: normal;
   font-weight: bold;
   line-height: 1.2;
-  margin-bottom: 10%;
+  margin-bottom: 3.25em;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0.25em;
@@ -609,20 +462,8 @@
 .x03-co-body-text {
   display: block;
   font-family: "Minion Pro", "Georgia", serif;
-  font-size: 1em;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  orphans: 2;
-  text-indent: 0;
-  widows: 2;
-}
-.x04-body-text {
-  display: block;
-  font-family: "Minion Pro", "Georgia", serif;
-  font-size: 1em;
-  margin-bottom: 0;
+  font-size: 1.6em;
+  margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -630,15 +471,46 @@
   text-indent: 1.8em;
   widows: 2;
 }
+.x04-body-text {
+    display: block;
+    font-family: "Minion Pro", "Georgia", serif;
+    font-size: 1.6em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    orphans: 2;
+    text-indent: 1.8em;
+    widows: 2;
+}
 .x04-space-break-orn {
+    display: block;
+    font-family: "Minion Pro", "Georgia", serif;
+    font-size: 2em;
+    line-height: 1.2;
+    margin-bottom: .6em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -0.1em;
+    orphans: 2;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    page-break-after: avoid;
+    text-align: center;
+    text-indent: 0;
+    widows: 2;
+}
+.x04-space-break-orn-pb {
   display: block;
   font-family: "Minion Pro", "Georgia", serif;
   font-size: 2em;
   line-height: 1.2;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
+  margin-bottom: 1.5em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  margin-top: 1.5em;
   orphans: 2;
   padding-bottom: 0;
   padding-left: 0;
@@ -671,7 +543,7 @@
   font-family: "HelveticaNeueLT Std", "Helvetica", sans-serif;
   font-size: 1em;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   margin-bottom: 0.8em;
   margin-left: 0;
   margin-right: 0;
@@ -685,7 +557,7 @@
 .x06-dialogue {
   display: block;
   font-family: "Minion Pro", "Georgia", serif;
-  font-size: 1em;
+  font-size: 1.3em;
   margin-bottom: 0;
   margin-left: 1.85em;
   margin-right: 1.85em;
@@ -697,7 +569,7 @@
 .x06-dialogue-first {
   display: block;
   font-family: "Minion Pro", "Georgia", serif;
-  font-size: 1em;
+  font-size: 1.3em;
   margin-bottom: 0;
   margin-left: 1.85em;
   margin-right: 1.85em;
@@ -709,7 +581,7 @@
 .x06-dialogue-last {
   display: block;
   font-family: "Minion Pro", "Georgia", serif;
-  font-size: 1em;
+  font-size: 1.3em;
   margin-bottom: 1.64em;
   margin-left: 1.85em;
   margin-right: 1.85em;
@@ -721,7 +593,7 @@
 .x06-e-mail {
   display: block;
   font-family: "HelveticaNeueLT Std", "Helvetica", sans-serif;
-  font-size: 0.75em;
+  font-size: 1.1em;
   margin-bottom: 0;
   margin-left: 2em;
   margin-right: 1.56em;
@@ -733,7 +605,7 @@
 .x06-e-mail-closing {
   display: block;
   font-family: "HelveticaNeueLT Std", "Helvetica", sans-serif;
-  font-size: 0.75em;
+  font-size: 1.1em;
   margin-bottom: 2.56em;
   margin-left: 2em;
   margin-right: 1.56em;
@@ -743,33 +615,33 @@
   widows: 2;
 }
 .x06-e-mail-closing1 {
-  display: block;
-  font-family: "HelveticaNeueLT Std", "Helvetica", sans-serif;
-  font-size: 0.75em;
-  margin-bottom: 0.89em;
-  margin-left: 2em;
-  margin-right: 1.56em;
-  margin-top: 0;
-  orphans: 2;
-  text-indent: 0;
-  widows: 2;
+    display: block;
+    font-family: "HelveticaNeueLT Std", "Helvetica", sans-serif;
+    font-size: 1em;
+    margin-bottom: 0.89em;
+    margin-left: 3.2em;
+    margin-right: 1.56em;
+    margin-top: 0;
+    orphans: 2;
+    text-indent: 0;
+    widows: 2;
 }
 .x06-e-mail-salutation {
-  display: block;
-  font-family: "HelveticaNeueLT Std", "Helvetica", sans-serif;
-  font-size: 0.75em;
-  margin-bottom: 0;
-  margin-left: 2em;
-  margin-right: 1.56em;
-  margin-top: 2.56em;
-  orphans: 2;
-  text-indent: 0;
-  widows: 2;
+    display: block;
+    font-family: "HelveticaNeueLT Std", "Helvetica", sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 0;
+    margin-left: 2em;
+    margin-right: 1.56em;
+    margin-top: 2.56em;
+    orphans: 2;
+    text-indent: 0;
+    widows: 2;
 }
 .x06-extract-1p {
   display: block;
   font-family: "Minion Pro", "Georgia", serif;
-  font-size: 1em;
+  font-size: 1.3em;
   margin-bottom: 1.64em;
   margin-left: 1.85em;
   margin-right: 1.85em;
@@ -779,32 +651,34 @@
   widows: 2;
 }
 .x07-list-bulleted {
-  border-bottom-color: currentColor;
-  border-bottom-style: none;
-  border-bottom-width: 0;
-  border-left-color: currentColor;
-  border-left-style: none;
-  border-left-width: 0;
-  border-right-color: currentColor;
-  border-right-style: none;
-  border-right-width: 0;
-  border-top-color: currentColor;
-  border-top-style: none;
-  border-top-width: 0;
-  display: list-item;
-  font-family: "Minion Pro", "Georgia", serif;
-  font-size: 1em;
-  list-style-type: none;
-  margin-bottom: 0;
-  margin-left: 1.1em;
-  margin-right: 0;
-  margin-top: 0.41em;
-  outline: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  text-indent: -1.1em;
+    border-bottom-color: currentColor;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    border-left-color: currentColor;
+    border-left-style: none;
+    border-left-width: 0;
+    border-right-color: currentColor;
+    border-right-style: none;
+    border-right-width: 0;
+    border-top-color: currentColor;
+    border-top-style: none;
+    border-top-width: 0;
+    display: list-item;
+    font-family: "Minion Pro", "Georgia", serif;
+    font-size: 1.3em;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 1.1em;
+    margin-right: 0;
+    margin-top: 0.41em;
+    outline: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    text-indent: -1.1em;
+
+	font-weight: 
 }
 .x07-list-bulleted-first {
   border-bottom-color: currentColor;
@@ -821,7 +695,7 @@
   border-top-width: 0;
   display: list-item;
   font-family: "Minion Pro", "Georgia", serif;
-  font-size: 1em;
+  font-size: 1.3em;
   list-style-type: none;
   margin-bottom: 0;
   margin-left: 1.1em;
@@ -836,7 +710,7 @@
 }
 .x07-list-bulleted-first1 {
   display: block;
-  font-size: 1em;
+  font-size: 1.3em;
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
@@ -859,7 +733,7 @@
   border-top-width: 0;
   display: list-item;
   font-family: "Minion Pro", "Georgia", serif;
-  font-size: 1em;
+  font-size: 1.3em;
   list-style-type: none;
   margin-bottom: 1.64em;
   margin-left: 1.1em;
@@ -959,7 +833,7 @@
 .x10-sidebar-text-last {
   display: block;
   font-family: "HelveticaNeueLT Std", "Helvetica", sans-serif;
-  font-size: 0.75em;
+  font-size: 1.25em;
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
@@ -971,176 +845,17 @@
 .x10-sidebar-title {
   display: block;
   font-family: "HelveticaNeueLT Std", "Helvetica", sans-serif;
-  font-size: 0.75em;
+  font-size: 1.3em;
   font-style: normal;
   font-weight: bold;
-  margin-bottom: 0.25em;
+  margin-bottom: .68em;
   margin-left: 0;
   margin-right: 3%;
   margin-top: 0;
+	padding-top: 1.5em;
   orphans: 2;
   page-break-after: avoid;
   text-align: left;
   text-indent: 0;
   widows: 2;
-}
-.x13-bm-ack-head {
-  display: block;
-  font-family: "HelveticaNeueLT Std", "Helvetica", sans-serif;
-  font-size: 1.41667em;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1.2;
-  margin-bottom: 15%;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 10%;
-  orphans: 2;
-  page-break-after: avoid;
-  text-align: left;
-  text-indent: 0;
-  widows: 2;
-}
-.x13-bm-endnotes {
-  display: block;
-  font-family: "Minion Pro", "Georgia", serif;
-  font-size: 0.75em;
-  margin-bottom: 0;
-  margin-left: 2.06em;
-  margin-right: 0;
-  margin-top: 0;
-  orphans: 2;
-  text-indent: -2.06em;
-  widows: 2;
-}
-.x13-bm-endnotes-head-a {
-  display: block;
-  font-family: "HelveticaNeueLT Std", "Helvetica", sans-serif;
-  font-size: 0.75em;
-  font-weight: bold;
-  margin-bottom: 0.69em;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 1.94em;
-  orphans: 2;
-  text-indent: 0;
-  widows: 2;
-}
-.x13-bm-index {
-  display: block;
-  font-family: "Minion Pro", "Georgia", serif;
-  font-size: 0.75em;
-  margin-bottom: 0;
-  margin-left: 3.1em;
-  margin-right: 0;
-  margin-top: 0;
-  orphans: 2;
-  text-indent: -3.1em;
-  widows: 2;
-}
-.x13-bm-index-alpha {
-  display: block;
-  font-family: "Minion Pro", "Georgia", serif;
-  font-size: 0.75em;
-  margin-bottom: 0;
-  margin-left: 3.1em;
-  margin-right: 0;
-  margin-top: 1.29em;
-  orphans: 2;
-  text-indent: -3.1em;
-  widows: 2;
-}
-.x13-bm-index-nav-bar {
-  border-bottom-color: #757575;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-top-color: #757575;
-  border-top-style: solid;
-  border-top-width: 2px;
-  display: block;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 1em;
-  orphans: 2;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  page-break-inside: avoid;
-  widows: 2;
-  width: 100%;
-}
-.x13-bm-index-nav-bar-letter {
-  color: #757575;
-  padding-bottom: 0;
-  padding-left: 0.1em;
-  padding-right: 0.1em;
-  padding-top: 0;
-  text-align: center;
-}
-.x13-bm-index-nav-bar1 {
-  display: block;
-  font-family: "Minion Pro", "Georgia", serif;
-  font-size: 1em;
-  line-height: 1.5em;
-  margin-bottom: 0.1em;
-  margin-left: 0.1em;
-  margin-right: 0.1em;
-  margin-top: 0.1em;
-  orphans: 2;
-  padding-bottom: 0.4em;
-  padding-left: 0.4em;
-  padding-right: 0.4em;
-  padding-top: 0.4em;
-  text-align: center;
-  widows: 2;
-}
-.x13-bm-index-note {
-  display: block;
-  font-family: "Minion Pro", "Georgia", serif;
-  font-size: 0.75em;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  orphans: 2;
-  text-indent: 0;
-  widows: 2;
-}
-.x13-bm-index1 {
-  display: block;
-  font-family: "Minion Pro", "Georgia", serif;
-  font-size: 0.75em;
-  margin-bottom: 0;
-  margin-left: 3.1em;
-  margin-right: 0;
-  margin-top: 0;
-  orphans: 2;
-  text-indent: -2.06em;
-  widows: 2;
-}
-.pcalibre:link {
-  color: #fa6400;
-  font-size: 1.2em;
-  font-weight: bold;
-  text-decoration: underline;
-}
-.pcalibre1:visited {
-  color: #fa6400;
-  font-size: 1.2em;
-  font-weight: bold;
-  text-decoration: underline;
-}
-.pcalibre2:hover {
-  color: #fa6400;
-  font-size: 1.2em;
-  font-weight: bold;
-  text-decoration: underline;
-}
-.pcalibre3:active {
-  color: #fa6400;
-  font-size: 1.2em;
-  font-weight: bold;
-  text-decoration: underline;
 }
